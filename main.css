@@ -2,4 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;500&display=swap');
 /* end imported fonts */
 
-/*  */
+/* full document */
+* {
+    font-family: 'poppins';
+    background-color: rgb(226, 223, 223);
+}
+/* end full document */
+
+
+/* start heading text */
+h2 {
+    font-family: 'raleway';
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 75px;
+}
+/* end heading text*/
+
+/* start hero & nav*/
+h1 {
+    font-size: 125px;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.nav, .hero {
+    text-align: center;
+    font-family: 'raleway';
+    text-transform: capitalize;
+}
+
+button {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* end hero & nav */
+
