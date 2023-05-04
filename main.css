@@ -16,13 +16,22 @@ h2 {
     font-weight: 500;
     text-transform: capitalize;
     font-size: 75px;
+    background-color: #ffc0cb;
+    margin: 10px;
+    padding: 40px;
 }
+
 /* end heading text*/
 
 /* start hero & nav*/
 h1 {
     font-size: 125px;
     font-weight: 500;
+    background-color: #ffc0cb;
+    margin-top: 20px;
+    padding:10px;
+
+
 }
 
 h4 {
@@ -30,15 +39,28 @@ h4 {
     font-size: 45px;
 }
 
-.nav, .hero {
+.hero, .nav{
     text-align: center;
     font-family: 'raleway';
     text-transform: capitalize;
+    background-color: #ffc0cb;
 }
 
-button {
+button, a {
     text-decoration: none;
     text-transform: capitalize;
 }
 /* end hero & nav */
 
+/* start about section */
+#about img {
+    height: 500px;
+    width:auto;
+    float: left;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+
+/* end about section */
