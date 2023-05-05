@@ -6,6 +6,7 @@
 * {
     font-family: 'poppins';
     background-color: rgb(226, 223, 223);
+    box-sizing: border-box;
 }
 /* end full document */
 
@@ -21,7 +22,27 @@ h2 {
     padding: 40px;
 }
 
+h4 {
+    font-weight: 300;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+span {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px, 5px, 5px, 1px;
+    margin-right: 10px;
+}
 /* end heading text*/
+
+/* strat back to top link */
+.jump {
+    text-decoration: none;
+    font-size: 13px;  
+}
+/* end back to top link */
 
 /* start hero & nav*/
 h1 {
@@ -30,13 +51,6 @@ h1 {
     background-color: #ffc0cb;
     margin-top: 20px;
     padding:10px;
-
-
-}
-
-h4 {
-    font-weight: 300;
-    font-size: 45px;
 }
 
 .hero, .nav{
@@ -52,15 +66,18 @@ button, a {
 }
 /* end hero & nav */
 
-/* start about section */
-#about img {
+/* start image section */
+img {
     height: 500px;
     width:auto;
     float: left;
     padding: 20px;
     margin: 5px;
 }
+/* end image section */
 
-
-
+/* start about section */
+#about img{
+    float: left;
+}
 /* end about section */
