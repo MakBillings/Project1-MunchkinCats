@@ -6,8 +6,6 @@
 * {
     font-family: 'poppins';
     background-color: rgb(226, 223, 223);
-    box-sizing: border-box;
-    margin: 10px;
 }
 /* end full document */
 
@@ -32,6 +30,9 @@ h4 {
     text-transform: capitalize;
 }
 
+p {
+    margin: 10px;
+}
 /* end heading text*/
 
 /* start back to top link */
@@ -43,14 +44,15 @@ h4 {
 
 /* start hero & nav*/
 
-.hero-image {
+/* .hero-image {
     background-image: url("/images\background-flowers.jpg");
     position:relative;
     background-position: center;
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
+
 h1 {
     font-size: 125px;
     font-weight: 500;
@@ -67,7 +69,6 @@ h1 {
 #top {
     background-color: #ffc0cb;
     max-width: max-content;
-    /* position:relative; */
 }
 
 #top, .nav{
@@ -98,7 +99,6 @@ button {
 img {
     height: 500px;
     width:auto;
-    float: left;
     padding: 20px;
     margin: 5px;
 }
@@ -122,16 +122,20 @@ p {
     margin-right: 10px;
 }
 
-#personality img {
+#whatsup, #traveling {
     float: right;
 }
 
 #model {
-    float: right;
+    float: left;
 }
 
-ul {
+.ul {
     text-transform: capitalize;
 }
 
+.list {
+    padding: 5pxpx, 20px;
+    display: inline-block;
+}
 /* end personality section */
