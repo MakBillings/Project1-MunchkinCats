@@ -16,10 +16,13 @@ h2 {
     font-family: 'raleway';
     font-weight: 500;
     text-transform: capitalize;
+    text-align: center;
     font-size: 75px;
     background-color: #ffc0cb;
-    margin: 10px;
+    margin: 20px;
     padding: 40px;
+    max-width: fit-content;
+    border-radius: 20%;
 }
 
 h4 {
@@ -74,6 +77,11 @@ img {
     padding: 20px;
     margin: 5px;
 }
+
+p {
+    margin-top: 5px;
+    padding-top: 20px;
+}
 /* end image section */
 
 /* start about section */
@@ -81,3 +89,13 @@ img {
     float: left;
 }
 /* end about section */
+
+/* start personality section */
+#model {
+    float: right;
+}
+
+#personality img {
+
+}
+/* end personality section */
